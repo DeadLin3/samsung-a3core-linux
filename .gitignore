@@ -1,0 +1,3 @@
+releases/*.img
+releases/*.img.xz
+releases/*.tar*

@@ -1,0 +1,13 @@
+#!/bin/sh
+if [ -d /sys/kernel/security/apparmor ]; then
+    exec /usr/bin/aa-exec.bin "$@"
+fi
+while [ $# -gt 0 ]; do
+    case "$1" in
+        --) shift; break ;;
+        -p|-n) shift 2 ;;
+        -*) shift ;;
+        *) break ;;
+    esac
+done
+exec "$@"

@@ -1,0 +1,6 @@
+#!/bin/sh
+OUT=$( (/usr/bin/getprop.bin "$@") 2>/dev/null )
+if [ -n "$OUT" ]; then
+    printf "%s\n" "$OUT"
+fi
+exit 0

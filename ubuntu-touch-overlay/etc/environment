@@ -1,0 +1,3 @@
+PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
+HYBRIS_LD_LIBRARY_PATH="/usr/local/lib/hybris-compat:/apex/com.android.runtime/lib/bionic:/vendor/lib/egl:/vendor/lib/hw:/vendor/lib:/system_ext/lib:/system/lib:/apex/com.android.vndk.v30/lib"
+QSG_TRANSIENT_IMAGES=1

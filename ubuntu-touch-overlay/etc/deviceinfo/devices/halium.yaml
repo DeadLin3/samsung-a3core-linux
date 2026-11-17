@@ -1,0 +1,7 @@
+halium:
+  Name: a3core
+  PrettyName: Samsung Galaxy A03 Core
+  DeviceType: phone
+  GridUnit: 16
+  WebkitDpr: 1.75
+  PrimaryOrientation: Portrait
